@@ -1,0 +1,41 @@
+
+
+.row {
+    margin: 0 !important;
+}
+.nav-link {
+    color: #222 !important;
+}
+
+/* styling button */
+.btn-log, .btn-sign, .btn-hero {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-sign, .btn-hero {
+    padding: 8px 22px;
+    background: #372b7ae1;
+    color: #e4e2e2ed;
+    border-radius: 6px;
+}
+
+.btn-hero {
+    padding: 8px 37px;
+    text-transform: uppercase;
+}
+
+.btn-sign:hover {
+    background: #5a48c5e1;
+}
+
+.herotext h1 {
+    color: #0a042be1;
+}
+
+.spectar {
+    margin: 10% auto;
+}
