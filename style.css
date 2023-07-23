@@ -42,9 +42,43 @@
 
 .card-item-footer {
     background: orangered;
-    padding: 10px;
+    padding: 3px;
 }
 
 .card-section-item {
     background: #5000CA;
+}
+
+.card-overall-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item {
+    background: #fff;
+    margin-right: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card-header-item, .card-body-item {
+    padding: 10px 13px;
+}
+
+@media screen and (max-width: 992px) {
+    .card-overall-section {
+        flex-direction: column;
+    }
+
+    .card-item {
+        margin: 0 0 20px 0;
+    }
+
+    .svg-top {
+        margin-bottom: -5px;
+    }
+
+    .svg-bottom {
+        margin-top: -5px;
+    }
 }
