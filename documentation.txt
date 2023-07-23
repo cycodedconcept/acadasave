@@ -1,0 +1,69 @@
+--Hello everyone
+--welcome to bootstrap class
+
+
+--below are the guidelines to follow to set up your bootstrap using CDN
+#go to bootstrap website and get your current version
+#go to documentation
+#copy the css minified version and paste it at the head tag of your html
+#copy the jquery and the javascript minified version and paste it close to the closing body tag of your html.
+
+--note
+--jquery must always be the first script tag and must be on top of other script tag
+
+#after setting up your script files and your css files, we added our first bootstrap component which is the navbar.
+--to get the navbar, use the search input on the documentation page to search for any component/html element you want to work with.
+
+--for navbar, type Navbar and click on the Navbar dropdown that will pop up to open different type of navbar for you to choose from.
+
+
+
+--bootstrap grid system
+#on the searchbar, type grid and you will get a pop up to click on
+
+
+--to use the grid system, follow these steps
+
+#create a div with a class of row
+#inside the row div, create another div with these classes listed below
+--col-sm-12 col-md-12 col-lg-1 
+--note, you can make your col-lg-1 if you want to maintain margin on both left and right of 
+your page and add content into the middle div which has col-lg-10 and col-xl-10 which means you will be having a structure like this below
+
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10"></div>
+    <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+</div>
+
+--if you don't want left and right margin, you can have the structure below for two content 
+side by side on large screen
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6"></div>
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6"></div>
+</div>
+
+--for three content side by side, this is the structure below
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
+    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
+    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
+</div>
+
+
+--for four content side by side, this is the structure below
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+</div>
+
+--col-sm-12 is the class called on a particular div or content when a small device is used to
+view that content
+
+--col-md-12 is the class called on a particular div or content when a medium device is used to
+view that content
+
+--col-lg-12 is the class called on a particular div or content when a large device is used to
+view that content
