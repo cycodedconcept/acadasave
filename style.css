@@ -18,7 +18,7 @@
 
 .btn-sign, .btn-hero {
     padding: 8px 22px;
-    background: #372b7ae1;
+    background: #5000CA;
     color: #e4e2e2ed;
     border-radius: 6px;
 }
@@ -38,4 +38,13 @@
 
 .spectar {
     margin: 10% auto;
+}
+
+.card-item-footer {
+    background: orangered;
+    padding: 10px;
+}
+
+.card-section-item {
+    background: #5000CA;
 }
