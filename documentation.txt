@@ -67,3 +67,19 @@ view that content
 
 --col-lg-12 is the class called on a particular div or content when a large device is used to
 view that content
+
+
+
+--26th july 2023
+--last week sunday, we learnt how to add wavy background to our bootstrap application.
+--to do this, visit www.getwave.into
+--set your wave pattern
+--download or copy the svg code
+--on your app, create a section and add the svg inside
+--create another section and add the bottom part of the svg in the second section
+
+#note, when you are creating your svg on getwave.io, it gives you the option to download the top and bottom part of the said svg
+
+--in between both section containing the svg, create another section and add your bootstrap card
+--use the same background color of your svg as background of that new section and it will blend
+--do your responsiveness to remove border lines on both small and large devices/medium
